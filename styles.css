@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(153, 84, 38);
+}
+
+#main-wrapper{
+  border: 2px solid black;
+  max-width: 1500px;
+  height: 50%;
+}
+
+#divs-wrapper{
+  width: 60%;
+  height: 65%;
+  margin: 10% 20%;
+  background-color: #fff;
+  position: absolute;
+  
+}
+
+.player-box-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-0-panel, .player-1-panel{
+  margin-top: 20px;
+  width: 300px;
+  height: 325px;
+  box-sizing: border-box;
+}
+
+.player-name{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.player-score{
+  font-size:60px ;
+  text-align: center;
+  margin-top: 12px;
+  color: red;
+}
+
+.active{
+  background-color: #ccc;
+   position: relative;
+   opacity: 1.6;
+  box-sizing: border-box;
+}
+
+.active .dot{
+   height: 2px;
+  padding: 5px;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+
+.player-current-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 150px auto;
+  text-align: center;
+  background-color: red;
+  width: 90px;
+  height: 60px;
+}
+
+.player-current-label{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.player-current-score{
+  padding-top: 7px;
+  color: #fff;
+  font-size: 30px;
+}
+
+button.btn-new{
+  position: absolute;
+  margin: -320px auto;
+  margin-left: 345px;
+  padding: 5px;
+  border: none;
+
+}
+
+button.btn-new:hover, button:hover{
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.btn-new:focus, button:focus{
+  outline: none;
+}
+
+button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: 18px;
+  padding: 5px;
+  border: none;
+  text-transform: uppercase;
+}
+
+
+button.roll-dice{
+  margin-top: -3px;
+}
+
+img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: -230px auto;
+  position: relative;
+}
