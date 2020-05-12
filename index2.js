@@ -9,8 +9,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
       //1. Random nuber
     let dice1 = Math.floor(Math.random() * 6) + 1;
     let dice2 = Math.floor(Math.random() * 6) + 1;
-    // document.querySelector('#current-' + activePlayer).textContent = dice;
-
+   
 
     //2. Display the result
     document.getElementById('dice-1').style.display = 'block';

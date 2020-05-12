@@ -7,8 +7,7 @@ document.querySelector('.btn-roll').addEventListener('click', function(){
   if (gamePlaying){
       //1. Random nuber
     let dice = Math.floor(Math.random() * 6) + 1;
-    // document.querySelector('#current-' + activePlayer).textContent = dice;
-
+    
 
     //2. Display the result
     let diceDom = document.querySelector('.dice')
