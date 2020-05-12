@@ -124,14 +124,7 @@ button.btn-roll{
   margin-top: -3px;
 }
 
-/* img{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: -230px auto;
-  position: relative;
-  box-shadow: 0px 10px 68px rgba(0, 0, 8, 0.18);
-} */
+
 
 .dice{
   position: absolute;
